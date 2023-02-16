@@ -1,25 +1,79 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
-    background-color: rgb(235, 235, 235);
+    background: linear-gradient(to bottom, #1e528e 0%,#728a7c 50%,#e9ce5d 100%) !important;
+    
+
+    font-family:"Comic Sans MS";
 }
-section{
-    /*height: 600px;*/
-    border: solid;
+li:hover{
+    text-decoration: underline;
 }
 
-h1{
+
+
+
+section{
+    /*height: 600px;*/
+    /*border: solid;*/
+    padding-bottom: 20rem;
+    padding-top: 1.5rem;
+}
+
+footer{
     text-align: center;
+    background-color: #87CEEB;
 }
 
 #home{
-    height: 800px;
+    padding-bottom: 23.9rem;
+    text-align: center;
+}
+#homebutton{
+    margin-top: 3%;
+}
+
+#gallery{
+    padding-bottom: 0rem;
+}
+
+h1{
+    padding-bottom: 1.5rem;
+}
+
+h5{
+    font-weight: bold;
+}
+
+h6{
+    text-decoration: underline;
+}
+
+body{
+    background: radial-gradient(#e66465, #9198e5);
+}
+.blue{
+    background-color: #87CEEB;
+}
+
+.lavendar{
+    background-color: lavender;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 2.5rem;
 }
 
 
 #introduction{
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 300px;
-    transition: margin-left 3s;
+    padding-top: 16rem;
+    color: whitesmoke;
 }
 
 /* Contact Section */
@@ -59,55 +113,120 @@ a:visited{
 #about{
     text-align: center;
 }
-.aboutBoxes{
-    width: 40%;
-    height: 70%;
-    margin-left: 3%;
-    margin-right: 3%;
-    border: solid;
-    display: inline-block;
+
+.textBox{
+    text-align: center;
+    height: 6rem;
+    width: 6rem;
 }
+
+
+#htmlSkill{
+    background-image: url("skillsDir/html5Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#cssSkill{
+    background-image: url("skillsDir/css3Logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#javascriptSkill{
+    background-image: url("skillsDir/javascriptLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bootstrapSkill{
+    background-image: url("skillsDir/bootstrapLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pythonSkill{
+    background-image: url("skillsDir/pythonLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#javaSkill{
+    background-image: url("skillsDir/javaLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#cSkill{
+    background-image: url("skillsDir/cLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#cppSkill{
+    background-image: url("skillsDir/c++Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#mongoDBSkill{
+    background-image: url("skillsDir/mongoDBLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#expressSkill{
+    background-image: url("skillsDir/expressLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#reactSkill{
+    background-image: url("skillsDir/reactLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#nodeSkill{
+    background-image: url("skillsDir/nodeLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.textBox > p{
+    opacity: 0%;
+}
+
+
 
 /* About Section*/
 
 /* Project Section*/
-#projects{
-    text-align: center;
-}
-.project{
-    height: 500px;
-    width: 300px;
-    border: solid;
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 10px;
-    background-image: url("pokemoncard.png");
-    background-position: center;
-    background-size: cover;
-    
+
+
+/*Experience Section*/
+.card{
+    background-color: rgb(255, 213, 128);
 }
 
-.project p , .project .imgBox{
-    opacity: 0%;
+#swooptutorslogo{
+    padding-top: 25%;
+    padding-bottom: 50%;
 }
 
-.project:hover{
-    background-image: none;
-}
-.project:hover .imgBox{
-    opacity: 100%;
-}
-.project:hover p{
-    opacity: 100%;
-}
 
-.imgBox{
-    width: 250px;
-    height: 250px;
-    border: solid;
-    margin-left: 24px;
-}
 
 /*Gallery Section*/
 /*
