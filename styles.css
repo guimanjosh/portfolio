@@ -91,17 +91,17 @@ h1{
 }
 
 #linkedincontact{
-    background-image: url("linkedinpic.png");
+    background-image: url("contactDir/linkedinpic.png");
     background-size: 50px;
 }
 
 #githubcontact{
-    background-image: url("github.png");
+    background-image: url("contactDir/github.png");
     background-size: 50px;
 }
 
 #twittercontact{
-    background-image: url("twitter.png");
+    background-image: url("contactDir/twitter.png");
     background-size: 50px;
 }
 
