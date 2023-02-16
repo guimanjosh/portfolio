@@ -9,56 +9,247 @@
     <title>Joshua Guiman's Portfolio</title>
 </head>
 <body>
+    
+
     <!-- Home Section--> 
-    <section id="home" class="container">
-        <p id="introduction"> My name is Joshua. I am a software engineer.</p>
+    <section id="home" class="container justify-content-center">
+        <p id="introduction"> My name is Joshua Guiman. I am a software engineer.</p>
         <div id="contact">
             <a href="https://www.linkedin.com/in/joshuaguiman/" target="_blank"><div class="contactinfo" id="linkedincontact"></div></a>
             <a href="https://github.com/guimanjosh" target="_blank"><div class="contactinfo" id="githubcontact"></div></a>
             <a href="https://twitter.com/GuimanJosh" target="_blank"><div class="contactinfo" id="twittercontact"></div></a>
         </div>
+        <a class="btn btn-outline-primary justify-content-center" id="homebutton" href="#about" role="button">View my work</a>
     </section>
     <!-- Home Section-->
 
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+        <a class="navbar-brand" href="#">&#128640;</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
     <!-- About Section--> 
-    <section id="about">
+    <section id="about" class="container blue">
         <h1>About</h1>
-        <div class="aboutBoxes"></div>
-        <div class="aboutBoxes"></div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="JoshBrandonPhoto.jpg" class="gallerypic img-fluid">
+                    <h2>Who am I?</h2>
+                    <p>I'm Joshua Guiman.
+                        I study at UC San Diego majoring in
+                         Mathematics-Computer Science
+                        and minoring in Cognitive Science. My career interests
+                        lie in Software Engineering, Design, and Education.
+                        </p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card">
+                    <h2>Skills</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3 skill" id="htmlSkill">
+                            <div class="textBox"><p>3 years</p></div>   
+                        </div>
+                        <div class="col-sm-3 skill" id="cssSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="javascriptSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="bootstrapSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 skill" id="pythonSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="javaSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="cSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="cppSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 skill" id="mongoDBSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="expressSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="reactSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                        <div class="col-sm-3 skill" id="nodeSkill">
+                            <div class="textBox"><p>3 years</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
     </section>
     <!-- About Section-->
 
-    <!-- Projects Section-->
-    
-    <!-- Projects Section-->
 
-    <section id="gallery" class="container">
-        <h1>Gallery</h1>
-        <div class="row no-gutters">
-            <div class="col-lg-3 col-md-6 col-sm-12 ">
-                <img src="japanDIR/shibuya2017.JPG" class="gallerypic img-fluid">
+    <!-- Projects Section-->
+    <section class="container lavendar" id="projects">
+        <h1>Projects</h1>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="steamLogo.jpeg" alt="steam logo image">
+                        <div class="card-body">
+                            <h5 class="card-title">Steam Games Exploratory Data Analysis</h5>
+                            <p class="card-text">Research project on Steam games that predicts the ratings.</p>
+                            <a href="https://github.com/guimanjosh/Exploratory-Data-Analysis-Steam-Games" target="_blank" class="btn btn-warning">Github</a>
+                        </div>
+                </div>
             </div>
-            
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="japanDIR/gyoen.JPG" class="gallerypic img-fluid">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="convert-pdf-to-mp3.jpeg" alt="convert-pdf-to-mp3 image">
+                        <div class="card-body">
+                            <h5 class="card-title">PDF to MP3 Tool</h5>
+                            <p class="card-text">Program that converts a PDF file into an MP3 file.</p>
+                            <a href="https://github.com/guimanjosh/PDF-to-MP3-Tool" target="_blank" class="btn btn-warning">Github</a>
+                        </div>
+                </div>
             </div>
-            
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="japanDIR/steinsgate2018.JPG" class="gallerypic img-fluid">
+            <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="genomeSeqPic.jpeg" alt="DNA Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Genome Sequence File Compressor</h5>
+                        <p class="card-text">Program that compresses files using Huffman Coding.</p>
+                        <a href="https://youtu.be/IEt_GSTLcU8" target="_blank" class="btn btn-danger">Youtube Demo</a>
+                    </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="japanDIR/shinjukualleyNov2022.JPG" class="gallerypic img-fluid">
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-lg-6 col-sm-12">
-                <img src="japanDIR/shinjukunightstation.jpg" alt="shinjuku night station" class="img-fluid">
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <img src="japanDIR/fujipagoda.JPG" alt="fujipagoda" class="img-fluid">
             </div>
         </div>
     </section>
+    <!-- Projects Section-->
+
+
+    <!-- Experience Section-->
+    <section class="container blue" id="experience">
+        <h1>Experience</h1>
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="stnew.png" alt="Swoop Tutors Logo" id="swooptutorslogo">
+                <div class="card-body">
+                    <h5 class="card-title">Swoop Tutors</h5>
+                    <h6>Math/CS Tutor</h6>
+                        <p class="card-text">Tutor for AP Computer Science and Statistics.</p>
+                <a href="https://www.swooptutors.com/tutors/joshua-guiman/" target="_blank" class="btn btn-primary">Profile</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+          <div class="card">
+            <img class="card-img-top" src="ucsdMatsuriLogo2020.webp" alt="UCSD Matsuri 2020 Logo">
+                <div class="card-body">
+                    <h5 class="card-title">UCSD Japanese Student Association</h5>
+                    <h6>Front-End Developer</h6>
+                    <p class="card-text">Spearheaded the front-end development of the Maturi event website using
+                html, css, wordpress.
+                    </p>
+              <a href="https://ucsdmatsuri2016.wordpress.com/" target="_blank" class="btn btn-danger">Website</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="jbei.jpeg" alt="Joint BioEnergy Insititute Logo">
+                <div class="card-body">
+                  <h5 class="card-title">Joint BioEnergy Institute</h5>
+                  <h6>Information Technology Intern</h6>
+                  <p class="card-text"> Supported my fellow coworkers with technology issues and resolved these issues.
+                  </p>
+                  <a href="https://www.jbei.org/" target="_blank" class="btn btn-success">Company</a>
+                </div>
+          </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section-->
+
+
+    <section id="gallery" class="container lavendar">
+        <h1>Gallery</h1>
+        <div class="row no-gutters">
+            <div class="col-lg-3 col-md-6 col-sm-12 ">
+                <img src="japanDIR/shibuya2017.JPG" class="gallerypic img-fluid appear">
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="japanDIR/gyoen.JPG" class="gallerypic img-fluid appear">
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="japanDIR/steinsgate2018.JPG" class="gallerypic img-fluid appear">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="japanDIR/shinjukualleyNov2022.JPG" class="gallerypic img-fluid appear">
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-sm-12">
+                <img src="japanDIR/shinjukunightstation.jpg" alt="shinjuku night station" class="img-fluid appear">
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img src="japanDIR/fujipagoda.JPG" alt="fujipagoda" class="img-fluid appear">
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-12">
+                <img src="japanDIR/tokyoSkyTree2017.JPG" alt="tokyo skytree" class="img-fluid appear">
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="japanDIR/shibuyaCrossFeb2018.JPG" alt="car in shibuya cross" class="img-fluid appear">
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="japanDIR/akihabaraDay2017.jpg" alt="akihabara 2017" class="img-fluid appear">
+            </div>
+        </div>
+    </section>
+    
+    <footer class="container">
+        <p>Joshua Guiman &#169;2023</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
